@@ -56,3 +56,86 @@ console.log(numero,numero2);
 
 let umTexto = "Meu número é 12";
 console.log(umTexto);
+
+//Ferramenta para avaliar o tipo TYPEOF
+//Typeof -> Operador de avaliação de tipo
+
+console.log(typeof numero);
+console.log(typeof numero2);
+console.log(typeof UmTexto);
+
+//Tipo de dado boolean, com dois possíveis valores: true, false
+
+let estaChovendo = false;
+
+console.log(estaChovendo); // Vai retornar o valor false
+console.log(typeof estaChovendo); //Vai retornar o tipo de dado, que é boolean
+
+console.log(10>5); //comparação, resulta em true ou false
+
+
+//Variável do tipo nulo:
+
+let semValor = null;
+console.log(semValor); // vai retorar o tipo de dado NULL
+
+console.log(typeof semValor); //vai resultar como um tipo object
+
+//Tudo é objeto no JS, vários tipos de dados é originado como objeto no JS
+
+let indefinido;
+
+console.log(indefinido);
+console.log(typeof indefinido); // vai retornar o tipo de  dado undefined
+
+// Nulo = Quando inicio algo nulo
+//Undefined = Quando eu esqueço de colocar um valor
+
+//Arrays e objetos será falado mais à frente do curso
+
+//Tipagem dinâmica
+
+let variavel  = 100;
+console.log(typeof variavel); // Vai retornar tipo number
+
+variavel = "texto";
+console.log(typeof variavel); // Vai retornar tipo string
+
+//Concatenar string = unir;
+
+let primeiroNome = "Gessyca";
+let sobrenome = "Nóbrega";
+
+//Nome + Sobrenome
+
+let nomeCompleto = primeiroNome + " "+ sobrenome;
+console.log(nomeCompleto);
+
+//Também posso unir textos com a variável
+
+console.log("Olá, " + nomeCompleto + "tudo bem?")
+
+//Operações aritméticas
+
+console.log(10 + 5);
+console.log(10 - 5);
+console.log(10 / 5);
+console.log(10 * 5);
+
+//Comparações
+console.log(10 > 5);
+console.log(10 < 5);
+
+//Toda comparação retorna um booleano
+
+// >= , <= - Maior ou igual, menor ou igual
+// == , == - Para verificar se o dados é igual e se o tipo dele também é igual 
+
+console.log(10 > 10); 
+console.log(10 >= 10);
+console.log(10 == 10);
+console.log(10 === 10); // melhor sempre usar esse quando se trata de igualdade, para que possa se assegurar do seu tipo também 
+// "=" não é igual a "=="
+
+//"=" -> Atribuição de valor
+// "==" e "===" -> Comparação
