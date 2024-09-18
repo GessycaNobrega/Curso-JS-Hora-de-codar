@@ -1,4 +1,4 @@
 //Objeto -> Console
 //log -> método
 //Conversa com o navegador
-console.log("Olá Mundo JavaScript!");
+console.log("Olá Mundo JavaScript!2");
